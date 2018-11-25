@@ -13,8 +13,8 @@
                             {{ session('status') }}
                         </div>
                     @endif
-
-                    You are logged in!
+                    <a class="btn btn-primary" href="/pessoas">Verificar pessoas</a>
+                    <a class="btn btn-primary" href="/listas">Verificar listas</a>
                 </div>
             </div>
         </div>
